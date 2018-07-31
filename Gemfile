@@ -37,7 +37,7 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'mina', '~> 1.2', '>= 1.2.3'
 gem 'pry'
-gem 'listen'
+gem 'listen', '~> 3.1', '>= 3.1.5'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
