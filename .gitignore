@@ -14,9 +14,16 @@
 # Ignore all logfiles and tempfiles.
 /log/*
 /tmp/*
+/vendor/assets/*
 !/log/.keep
 !/tmp/.keep
 
 # Ignore Byebug command history file.
 .byebug_history
+config/deploy.rb
+
+
+# 忽略编译后的静态资源文件
+public/assets/*
+
 config/deploy.rb
