@@ -36,7 +36,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 
 gem 'mina', '~> 1.2', '>= 1.2.3'
-
+gem 'mina-puma', require: false
 # 在model类的顶部或者底部，插入数据库表的描述，方便查看
 gem 'annotate', '~> 2.7.5'
 
