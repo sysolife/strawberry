@@ -23,3 +23,4 @@
 
 config/deploy.rb
 config/*.yml
+public/uploads/*
