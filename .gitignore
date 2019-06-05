@@ -24,3 +24,5 @@
 config/deploy.rb
 config/*.yml
 public/uploads/*
+.idea
+.idea/*
