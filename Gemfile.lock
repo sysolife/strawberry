@@ -81,7 +81,7 @@ GEM
       less (~> 2.6.0)
       sprockets (> 2, < 4)
       tilt
-    libv8 (3.16.14.19-x86_64-darwin-16)
+    libv8 (3.16.14.19)
     listen (3.0.8)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
@@ -109,7 +109,7 @@ GEM
     pry (0.12.2)
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
-    puma (3.12.0)
+    puma (3.12.4)
     rack (2.0.5)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -206,7 +206,7 @@ DEPENDENCIES
   mina (~> 1.2, >= 1.2.3)
   mysql2 (= 0.3.20)
   pry
-  puma (~> 3.0)
+  puma (~> 3.12)
   rails (~> 5.0.6)
   sass-rails (~> 5.0)
   spring
